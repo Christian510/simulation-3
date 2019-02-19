@@ -107,7 +107,7 @@ You have already created a React application as part of setting up the Github re
 
 ## Database
 1) Run `npm i massive dotenv --save`
-2) Create an .env file at the root of the project.
+2) Create an .env file at the server folder of the project.
 3) Open your .gitignore and add the .env file to it.
 4) Open server/index.js and require masssive and dotenv (make sure to invoke config on dotenv).
 5) Go to [Heroku](https://heroku.com) and create a database (you can also use a database you already have created, but just be careful not to name your tables for Helo the same thing as any of the tables that already exist in your database)
